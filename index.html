@@ -90,6 +90,16 @@ code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Inf
 <h1 id="githubでのウェブ公開のテスト">GitHubでのウェブ公開のテスト</h1>
 <h2 id="はじめに">はじめに</h2>
 <p>これはGitHubでウェブ公開をするためのテストサイトです。Markdownで内容を記述し、PandocでHTMLに変換しています。適当なテンプレート(<code>template.html</code>)を使うことで、スマホからも見ることができるレスポンシブなサイトになります。</p>
+<p>具体的には、このファイル(<code>README.md</code>)を、以下のようにHTMLに変換しています。</p>
+<div class="sourceCode"><pre class="sourceCode sh"><code class="sourceCode bash"><span class="ex">pandoc</span> -s README.md -o index.html --mathjax -t html --template=template</code></pre></div>
+<p>HTMLに変換されたファイルは、そのまま</p>
+<pre class="txt"><code>https://ユーザー名.github.io/リポジトリ名/</code></pre>
+<p>でアクセスできます。例えば、このサイトなら、リポジトリは</p>
+<p><a href="http://github.com/kaityo256/webetest/" class="uri">http://github.com/kaityo256/webetest/</a></p>
+<p>で、公開URLは</p>
+<p><a href="http://kaityo256.github.com/webetest/" class="uri">http://kaityo256.github.com/webetest/</a></p>
+<p>となります。</p>
+<p>直接HTMLを編集しても良いですが、レスポンシブにするのが面倒なので、Markdownから適切なテンプレートを使って変換したほうが楽だと思います。</p>
 <h2 id="リンク">リンク</h2>
 <p>例えばリンクは<a href="https://www.appi.keio.ac.jp/">このように</a>作成することができます。</p>
 </article>
