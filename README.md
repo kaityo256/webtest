@@ -18,11 +18,11 @@ https://ユーザー名.github.io/リポジトリ名/
 
 でアクセスできます。例えば、このサイトなら、リポジトリは
 
-[http://github.com/kaityo256/webetest/](http://github.com/kaityo256/webetest/)
+[http://github.com/kaityo256/webtest/](http://github.com/kaityo256/webtest/)
 
 で、公開URLは
 
-[http://kaityo256.github.com/webetest/](http://kaityo256.github.com/webetest/)
+[http://kaityo256.github.com/webtest/](http://kaityo256.github.com/webtest/)
 
 となります。
 
